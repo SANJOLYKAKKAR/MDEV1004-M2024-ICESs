@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		97D3B8122C3B24A60088A5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8112C3B24A60088A5FF /* AppDelegate.swift */; };
 		97D3B8142C3B24A60088A5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8132C3B24A60088A5FF /* SceneDelegate.swift */; };
-		97D3B8162C3B24A60088A5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8152C3B24A60088A5FF /* ViewController.swift */; };
+		97D3B8162C3B24A60088A5FF /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8152C3B24A60088A5FF /* MovieViewController.swift */; };
 		97D3B8192C3B24A60088A5FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 97D3B8182C3B24A60088A5FF /* Base */; };
 		97D3B81B2C3B24AD0088A5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3B81A2C3B24AD0088A5FF /* Assets.xcassets */; };
 		97D3B81E2C3B24AD0088A5FF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 97D3B81D2C3B24AD0088A5FF /* Base */; };
@@ -17,6 +17,7 @@
 		97D3B8332C3B24AE0088A5FF /* ICE7_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8322C3B24AE0088A5FF /* ICE7_IOSUITests.swift */; };
 		97D3B8352C3B24AE0088A5FF /* ICE7_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8342C3B24AE0088A5FF /* ICE7_IOSUITestsLaunchTests.swift */; };
 		97D3B8422C3B2A0A0088A5FF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3B8412C3B2A0A0088A5FF /* MovieTableViewCell.swift */; };
+		97E7E92C2C41FC8A00D97927 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7E92B2C41FC8A00D97927 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		97D3B80E2C3B24A60088A5FF /* ICE7-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ICE7-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D3B8112C3B24A60088A5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97D3B8132C3B24A60088A5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97D3B8152C3B24A60088A5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97D3B8152C3B24A60088A5FF /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		97D3B8182C3B24A60088A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97D3B81A2C3B24AD0088A5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D3B81D2C3B24AD0088A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		97D3B8322C3B24AE0088A5FF /* ICE7_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICE7_IOSUITests.swift; sourceTree = "<group>"; };
 		97D3B8342C3B24AE0088A5FF /* ICE7_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICE7_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		97D3B8412C3B2A0A0088A5FF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		97E7E92B2C41FC8A00D97927 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,13 @@
 			children = (
 				97D3B8112C3B24A60088A5FF /* AppDelegate.swift */,
 				97D3B8132C3B24A60088A5FF /* SceneDelegate.swift */,
-				97D3B8152C3B24A60088A5FF /* ViewController.swift */,
+				97D3B8152C3B24A60088A5FF /* MovieViewController.swift */,
 				97D3B8172C3B24A60088A5FF /* Main.storyboard */,
 				97D3B81A2C3B24AD0088A5FF /* Assets.xcassets */,
 				97D3B81C2C3B24AD0088A5FF /* LaunchScreen.storyboard */,
 				97D3B81F2C3B24AD0088A5FF /* Info.plist */,
 				97D3B8412C3B2A0A0088A5FF /* MovieTableViewCell.swift */,
+				97E7E92B2C41FC8A00D97927 /* Movie.swift */,
 			);
 			path = "ICE7-IOS";
 			sourceTree = "<group>";
@@ -261,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D3B8162C3B24A60088A5FF /* ViewController.swift in Sources */,
+				97D3B8162C3B24A60088A5FF /* MovieViewController.swift in Sources */,
 				97D3B8122C3B24A60088A5FF /* AppDelegate.swift in Sources */,
 				97D3B8422C3B2A0A0088A5FF /* MovieTableViewCell.swift in Sources */,
 				97D3B8142C3B24A60088A5FF /* SceneDelegate.swift in Sources */,
+				97E7E92C2C41FC8A00D97927 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
